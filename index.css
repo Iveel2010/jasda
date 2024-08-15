@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: flex;
+
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 30vw;
+}
+.text {
+  display: flex;
+  word-break: break-all;
+}
+.tag {
+  display: flex;
+  width: 100%;
+}
+.deletebtn {
+  display: flex;
+  width: 43px;
+  height: 20px;
+}
